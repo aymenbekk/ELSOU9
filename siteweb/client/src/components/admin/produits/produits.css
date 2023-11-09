@@ -1,0 +1,158 @@
+.products-container{
+    width: auto;
+    padding: 30px;
+    margin-left: 250px;
+}
+.products-container > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+.products-container > div:first-child button{
+    height: 40px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--main-light-color);
+    border-radius: 10px;
+     border: 1px solid transparent;
+
+}
+
+.products-container > div:first-child button:hover{
+    color: white;
+}
+.products-container h1{
+    font-family: "poopins",sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem; ;
+    font-size: 1.5em;
+    color: var(--main-dark-color);
+}
+table{
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   padding: 20px;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+}
+
+table tbody {
+    border-bottom: 1px solid grey;
+   
+}
+table thead tr:last-child{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+}
+
+table thead tr th div > span{
+    text-align:start;
+    font-size: .9em;
+}
+table th > div{ 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+table th .inputs{
+    display: flex;
+    gap: 10px;
+}
+table th > div > input:not(input[type=checkbox]){
+    height: 33px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+}
+table th .inputs input{
+    width: 80px;
+    height: 33px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+table th select{
+    height: 35px;
+    width: 130px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+table td select{
+    height: 35px;
+    width: 130px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+input[type=checkbox] {
+    width: 50px; 
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.edit-selected{
+    display: flex;
+    margin-bottom: 10px;
+    border-left: 1px solid rgba(128, 128, 128, 0.171);
+    border-top: 1px solid rgba(128, 128, 128, 0.171); 
+  }
+.edit-selected div{
+    font-size: 0.83em;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-right: 1px solid rgba(128, 128, 128, 0.171);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+}
+.edit-selected div:hover{
+    color: var(--main-light-color);
+}
+tbody span{
+    font-size: 13px;
+}
+tbody .titre{
+   font-weight: 500;
+}
+td{
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.pagination{
+    display: flex;
+    background-color: white;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.pagination div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.pagination input{
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    border: 1px ;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+}
+.pagination span{
+    font-size: .9em;
+}
+.delete-icon{
+font-size: 1.2em;
+color: var(--main-dark-color);
+cursor: pointer;
+}
+.delete-icon:hover{
+    color: var(--main-light-color);
+}

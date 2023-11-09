@@ -1,0 +1,7 @@
+.client-route-loading{
+    height: 100vh;
+    color: var(--main-light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

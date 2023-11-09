@@ -1,0 +1,105 @@
+.client-commandes{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    gap: 1rem;
+}
+.client-commandes h1{
+        font-size: 1.4em;    
+}
+.col-title{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+}
+.commande{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.commande:hover{
+    background-color: rgba(192, 192, 192, 0.438);
+}
+.commande span{
+    font-size: 0.85em;
+    color: rgb(121, 121, 121);
+    font-weight: bold;
+}
+.commande-client-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow: auto;
+}
+.commande-client-container .col-title{
+    padding: 15px 15px;
+    justify-content:space-between;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.438);
+}
+
+.commande-client-container > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.438);
+    padding: 15px 15px;
+}
+.commande-client-container .image{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.commande-client-container .image img{
+
+   width: 60px;
+   height: auto;
+   vertical-align: middle;
+}
+.cmd-container{
+    display: flex;
+    gap: 5px;
+}
+.cmd-container > div:first-child{
+    display: flex;
+    gap: 7px;
+    width: 70%;
+}
+.groupe-info{
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+    font-size: 0.87em;
+}
+.groupe-info span:first-child{
+    width: 270px;
+}
+.sizo{
+    font-weight: bold;
+}
+.groupe-info span:nth-child(2){
+    color: gray;
+    font-weight: bold;
+}
+.groupe-info span:last-child{
+    font-weight: bold;
+}
+@media (max-width:600px) {
+    .groupe-info{
+        font-size: 0.75em;
+    }
+    .groupe-info span:first-child{
+        width: 160px;
+    }
+    .cmd-container > div:first-child{
+  
+        width: 60%;
+    }
+}

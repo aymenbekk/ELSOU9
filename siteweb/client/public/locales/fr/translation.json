@@ -1,0 +1,186 @@
+{
+    "signin": "Connexion",
+    "about_us": "A propos",
+    "contact_us": "Contactez Nous",
+    "shop": "Acheter",
+    "slogan": "Au saveur du bled",
+    "landing_services": "Quelques Services",
+    "landing_livraison_title": "Livraison Rapide",
+    "landing_livraison_body": "nous garantissons des arrivées de produits aussi rapides que possible",
+    "landing_payment_title": "Paiement Securisé",
+    "landing_payment_body": "nous utilisons des nouveau technologies afin de sécuriser vos informations et vos données bancaires",
+    "landing_bagages_title": "Service de Bagages",
+    "landing_bagages_body": "nous offrons aussi un service de transport de bagage (Algerie-Paris-Algerie) avec des bonnes prix",
+    "landing_about_us": "A propos",
+    "landing_about_us_body": "Nous somme ELSOU9-Au saveur du Bled ,  ELSOU9 est le site qui vous offre les meilleurs et les nouveaux produits (Traditionel du Bled, Cuisine, Vetements ...) avec une livraison pour 9 pays (France, Belgique, Luxembourg, Pays-Bas, Allemagne, Espagne, Portugal, Italie, Autriche). ELSOU9 vous offre aussi un service de transport de bagage (Algerie vers Paris / Paris vers Algerie) avec des trés bonnes prix , pour plus d'inforamtions n'hesitez pas de nous contacter",
+    "landing_contact_us": "Contactez-nous", 
+    "landing_telephone": "Telephone",
+    "landing_email": "Email",
+    "landing_question": "Posez une question",
+    "landing_name": "Nom",
+    "landing_prenom": "Prénom",
+    "landing_subject": "Sujet",
+    "landing_message": "Votre message",
+    "landing_send": "Envoyer",
+    "landing_message_sent": "Message Envoyé",
+    "your_name": "Votre nom",
+
+    "popup_signin": "CONNEXION",
+    "popup_signup": "CREER UN COMPTE",
+    "forget_password_title": "RÉINITIALISER VOTRE MOT DE PASSE",
+    "forget_password_body": "Veuillez saisir votre adresse e-mail ci-dessous. Nous vous enverrons les instructions pour créer un nouveau mot de passe.",
+    "popup_email": "E-mail",
+    "forget_password_title_2": "RÉINITIALISER LE MOT DE PASSE",
+    "back_to_login": "retour vers connexion",
+    "password": "Mot de passe",
+    "authentication": "IDENTIFICATION",
+    "forget_password_?": "Mot de passe perdu ?",
+    "connect_with": "OU CONNECTEZ-VOUS AVEC",
+    "confirm_password": "Confirmer Mot de passe",
+    "registration": "INSCRIPTION",
+
+
+    "top": "Les top",
+    "products": "produits",
+    "service": "service de",
+    "bagages": "bagages",
+    "new_arrivals": "NOUVEAUTÉS",
+
+    "filter": "Filre",
+    "filter_by": "FILTRER PAR PRIX",
+
+    "categories": "LES CATEGORIÉS",
+
+    "view": "APPERCU",
+
+    "contact_informations": "Informations de Contact",
+    "contact_text": "Pour toutes vos questions ou demande d'information vous pouvez nous rejoindre",
+    "call_us": "Appelez-nous",
+    "call_text": "vous pouvez nous appeler à tout moment et nous serons là pour vous aide",
+    "send_us_mail": "Envoyez nous un Email",
+    "send_us_mail_text": "Nous vous fournirons les informations dont vous avez besoin, envoyez-nous simplement un e-mail",
+    "send_message": "Envoyer un message",
+
+    "login_register": "Connexion / Inscription",
+    "cart": "Panier",
+    "home": "Acceuil",
+    "Shop": "Acheter",
+    "search_product": "Chercher un produit ...",
+    "logout": "Déconnexion",
+    "my_account": "Mon Compte",
+
+    "your_cart": "Votre Panier",
+    "no_product_cart": "Aucun Produit dans le panier",
+    "subtotal": "Sous Total",
+    "checkout": "Checkout",
+
+    "orders": "Commandes",
+    "changed_with_success": "changé avec succès",
+    "save_modifications": "Enregistrer les modifications",
+
+    "old_password": "Ancien mot de passe",
+    "new_password": "Nouveau mot de passe",
+    "confirm_new_paswword": "Confirmer nouveau mot de passe",
+
+    "old_password_obligation": "ancien mot de passe* champ obligtoire",
+    "new_password_obligation": "nouveau mot de passe* champ obligtoire",
+    "confirm_password_obligation": "la confirmation de mot de passe est obligtoire",
+    "identique": "les mots de passe ne sont pas identiques",
+
+    "status": "Statut",
+    "no_orders": "Aucune Commande",
+
+    "loading": "Chargement en cours...",
+    "product_informations": "Informations sur le Produit",
+    "shipping": "Livraison",
+
+    "pages": "PAGES",
+    "services": "SERVICES",
+    "transport_bagage": "Transport de bagage",
+    "clothes_sale": "Vente Vetements",
+    "bled_sale": "Produits du Bled",
+    "sale": "Vente Divers",
+    "categories_footer": "CATEGORIES",
+    "follow_us": "SUIVEZ-NOUS",
+    "copyright": "Tous droits réservé",
+    "made_by": "Site web réalisé par",
+
+    "product": "PRODUIT",
+    "price": "PRIX",
+    "quantity": "QUANTITE",
+    "subTotal_capital": "SOUS TOTAL",
+    "order_validation": "Valider la commande",
+
+    "billing_details": "DÉTAILS DE FACTURATION",
+    "address": "Adresse",
+    "country": "Pays",
+    "region": "Region",
+    "zip_code": "Code-Postal",
+    "your_order": "VOTRE COMMANDE",
+    "sub-total_capital": "SOUS-TOTAL",
+    "sub-total": "sous-total",
+    "shipping_order": "Expédition",
+    "average": "Délais Moyens",
+    "total": "Total",
+
+    "paypal_text": "Paiement sécurisé en ligne.Carte de crédit nécessaire.Un compte Paypal n'est pas nécessaire",
+    "credit_card": "Carte de crédit",
+    "card_text": "transfert d'argent en toute sécurité à l'aide de votre compte bancaire visa, maestro, découverte, american express",
+
+    "card_number": "Numéro de carte de credit",
+    "card_name": "Nom sur la carte",
+    "address_line": "Ligne d'adresse",
+    "payment_validation": "Valider le Paiement",
+    "payment_error": "Message de erreur",
+
+    "commande_detail": "Details de la commande",
+    "payment": "Paiement",
+    "order_completed": "Commande Terminé",
+
+    "register": "Inscription",
+
+    "baggage_transport": "Transport de Bagages",
+    "algeria_paris": "Algerie-Paris-Algerie",
+    "baggage_text": "Notre service de livraison vous porpose la transportation des bagages ou colis avec les meilleurs prix du marché et la garantie et l'assurance total de vos bagages.",
+    "check_prices": "Voir les tarifs",
+    "france_to_algeria": "France (Paris) vers l'Algerie",
+    "algeria_to_france": "Algerie vers France (Paris)",
+    "kilo": "pour le Kilo",
+    "more_informations": "Pour plus d'informations",
+
+    "payment_1" :"Payment recu avec succée",
+    "payment_2" :"Panier commandé"
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+}

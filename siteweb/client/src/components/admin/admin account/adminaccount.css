@@ -1,0 +1,20 @@
+.admin-account{
+    margin-left: 250px;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.admin-account > div{
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+}
+.admin-account h1{
+    font-size: 1.1em;
+}

@@ -1,0 +1,117 @@
+.admin-dashboard{
+    margin-left: 250px;
+    padding: 30px;
+    width:calc(100% - 250px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.admin-dashboard .top-cards{
+    display: flex;
+    gap: 15px;
+    font-family: "Poppins",sans-serif;
+}
+.admin-dashboard .top-cards > div{
+    width: calc((100%) / 4);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+.admin-dashboard .top-cards i{
+    font-size: 1.65em;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 55px;
+    background-color: var(--main-light-color);
+    border-radius: 10px;
+    color: var(--main-dark-color);
+}
+.card-title{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.admin-dashboard .top-cards .number{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(88, 86, 86);
+}
+#total-commandes i{
+    background-color:  rgb(160, 206, 233);
+}
+#total-users i{
+    background-color:rgb(165, 240, 162);
+}
+#total-products i{
+    background-color: #ebd387;
+}
+#total-revenue i{
+    background-color: rgb(238, 171, 171);
+}
+.bottom-stuff{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+    height: 100%;
+}
+.admin-dashboard h3{
+    margin-top: 3rem;
+}
+.products-out-stock {
+   
+    width: calc((100% / 4) * 3)
+}
+.products-out-stock table{
+}
+.products-out-stock table th{
+    text-align: left;
+    font-size: 0.9em;
+}
+.products-out-stock table td{
+    text-align: left;
+    padding-top: 15px;
+    font-size: 0.82em;
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+}
+.products-out-stock table tbody td:first-child{
+ width: 270px;
+}
+.admin-dashboard .pagination{
+    width:100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.paypal-credit-card{
+    height: 100%;
+    width: calc(100% - ((100% / 4) * 3));
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.paypal-credit-card > div{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+}
+.paypal-credit-card > div img{
+    width: 45px;
+    height: auto;
+}
+.paypal-credit-card > div .number{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(88, 86, 86);
+}

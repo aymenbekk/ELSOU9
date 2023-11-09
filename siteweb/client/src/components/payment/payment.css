@@ -1,0 +1,197 @@
+.payment-container{
+    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paypal-card{
+    background-color: white;
+ 
+    width:45%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    border-radius: 8px;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+}
+.payment-body {
+
+   border-top: 1px solid rgba(128, 128, 128, 0.432);
+   padding-top: 30px;
+}
+
+.payment-body form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.payment-body form div {
+    display: flex;
+    flex-direction: column;
+}
+.card-input{
+    border-radius: 6px;
+    padding: 12px;
+    border: 1px solid rgba(172, 172, 172, 0.712);
+    height: 40px;
+    width: 100%;
+    background: white;
+    
+}
+ 
+.payment-body form div input{
+    border-radius: 6px;
+    padding: 12px;
+    border: 1px solid rgba(172, 172, 172, 0.712);
+    height: 40px;
+    background: white;
+    outline: none;
+    font-size: 0.9em;
+}
+.payment-body form div input:focus{
+    border: 1px solid var(--main-light-color);
+}
+.payment-body form div label{
+    font-size: 0.87em;
+        
+        color: var(--main-dark-color);
+        font-weight: bold;
+}
+.paypal{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 8px;
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+
+.p-container{
+    color: gray;
+    font-size: 0.8em;
+    padding: 10px;
+}
+.radio label{
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.radio input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);         
+    height: auto;    
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+.radio label:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radio label input:checked ~ .checkmark {
+    background-color: var(--main-light-color);
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .radio label input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .radio label .checkmark:after {
+       top: 6px;
+      left: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+.paypal > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+.paypal-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.paypal .paypal-logo img:first-child{
+    width: 25px;
+    height: auto;
+}
+.paypal .paypal-logo img:nth-child(2){
+    width: 55px;
+    height: auto;
+}
+.card-payment{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+.card-payment .paypal-logo img{
+    width: 30px;
+    height: auto;
+}
+.card-payment > div:first-child{
+display: flex;
+justify-content: space-between;
+}
+.payer-button{
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: var(--main-light-color);
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+.payer-button:hover{
+    background-color: #a78823;
+}
+@media (max-width:600px) {
+    .paypal-card{
+        background-color: white;
+     
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        border-radius: 8px;
+        min-width: 100%;
+    }
+    .radio label{
+        font-size: 16px;
+    }
+    .payment-container{
+        padding: 30px 10px 30px 10px;
+    }
+    
+}

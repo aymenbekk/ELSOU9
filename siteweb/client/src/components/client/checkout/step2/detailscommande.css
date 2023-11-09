@@ -1,0 +1,203 @@
+.step2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 15px;
+    overflow-x: hidden;
+    }
+    .details-commande{
+        display: flex;
+        justify-content:center;
+        gap: 20px;
+        margin-top: 2rem;
+    }
+    .details-commande h3{
+      color:var(--main-dark-color);
+    }
+    .details-commande .left-card{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        width: 50%;
+        --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+        background-color: white;
+        border-radius: 8px;    
+        min-width: 550px;
+        gap: 10px;
+    }
+    .details-commande .left-card label{
+        font-size: 0.87em;
+        /* color: #ad8e27; */
+        color: var(--main-dark-color);
+        font-weight: bold;
+    }
+    .nom-prenom{
+       display: flex;
+       gap: 15px;
+       justify-content: space-between;     
+    }  
+    .nom-prenom div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;  
+        gap: 5px;
+    }
+    .adresse{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .pays-region{
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+    }
+.pays-region div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.zip-code{
+    display: flex;
+    flex-direction: column;
+}
+.Telephone{
+    display: flex;
+    flex-direction: column;
+}
+.E-mail{
+    display: flex;
+    flex-direction: column;
+}
+.details-commande .left-card input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(172, 172, 172, 0.712);
+    padding: 5px;
+    font-size: 1em;
+}
+.details-commande .left-card input:focus{
+    border: 2px solid var(--main-light-color);
+    outline: none;
+}
+.region-input,.country-input{
+    height:40px ;
+    border-radius: 5px;
+    border: 1px solid rgba(172, 172, 172, 0.712) ;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+    .details-commande .right-card{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+        background-color: white;
+        border-radius: 8px;  
+        width: 33%;
+        min-width: 300px;
+        height: fit-content;
+    }
+    .details-commande .right-card table{
+        background-color: transparent;
+        border: 1px solid transparent;
+        box-shadow: none;
+     padding: 10px 5px 10px 5px;
+     width: 100%;
+     
+    }
+    .details-commande .right-card table thead
+    th{
+    text-align: left;
+    font-size: 13px;
+    color: #d3ad32;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--main-light-color);
+}
+.details-commande .right-card td:not(.price-last,.price-last~td){
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+    padding-bottom: 10px;
+    text-align: left;
+ font-size:13px ;
+ padding-top: 15px;
+}
+.item-titre{
+    width: 72%;
+}
+.price{
+    text-align: left;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 15px;
+   
+}
+.price2 span{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.price span{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.price td:first-child,.price-last{
+    font-weight: bold;
+    color: gray;
+}
+.right-card button{
+    padding: 10px;
+    background-color: var(--main-light-color);
+    border-radius: 8px;
+    border:1px solid transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 0.95em;
+
+}
+.right-card button:hover{
+    color: var(--main-dark-color);
+}
+@media (max-width:900px) {
+    .details-commande{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details-commande .left-card{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        width: 90%;
+   
+    }
+    .details-commande .right-card{
+        width: 90%;
+    }  
+}
+@media (max-width:600px) {
+    .nom-prenom{
+        display: flex;
+        flex-direction: column;
+     }  
+    .details-commande .left-card{ 
+        min-width: 100%;   
+        width: 100%;
+    }
+    .step2-container{
+        padding: 10px;
+        }
+        .details-commande .right-card{ 
+            min-width: 100%;   
+            width: 100%;
+        }
+        .region-input,.country-input{
+         
+            font-size: 0.8em;
+        }
+}

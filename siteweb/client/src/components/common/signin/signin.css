@@ -1,0 +1,231 @@
+.container_sign{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+}
+.head{
+    height: 90px;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+    background-color: var(--main-dark-color);
+    font-size: 2.5em;
+}
+.head span{
+  color: var(--main-light-color);
+  justify-self: start;
+}
+.head img{
+   width: 45px;
+   height: auto;  
+   margin-top: 10px;  
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    height: 60px;
+    color: var(--main-dark-color);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.connexion{
+ padding: 10px;
+ width: 100%;
+}
+.connexion::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .connexion::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  .connexion::-webkit-scrollbar-thumb {
+    background-color: var(--main-light-color);
+    border-radius: 100px;
+  }
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+   
+.info i{
+    margin-left: auto;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -56px;
+    margin-bottom: 30px;
+    font-size: 1.4em;
+}
+.first-info{
+    display: flex;
+}
+.connexion input{
+    height: 40px;
+    margin-bottom: 25px;
+    border: 2px solid var(--main-dark-color);
+    border-radius: 5px;
+    padding: 6px;
+    background-color: white;
+    font-size: 1em;
+}
+.connexion form > div input:focus{
+    border: 2px solid var(--main-light-color);
+    outline: none;
+}
+.connexion label{
+    color:  var(--main-dark-color);
+    font-weight: bold;
+}
+ 
+.connexion form button{
+    height: 40px;
+   padding: 10px;
+   background-color: var(--main-light-color);
+   color:var(--main-dark-color);
+   font-weight: 900;
+   font-size: 15px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   width: 100%;
+}
+.connexion .text{
+    margin-top: 1.5rem;
+   text-align: center;
+}
+.connexion h4{
+    margin-top: 10px;
+}
+.connexion .text span:first-child{
+    color: #f5b639; 
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.social button{
+    width: 100%;
+    background-color: white;
+    border:2px solid gray;
+    height: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+ border-radius: 5px;
+}
+.social button i{
+    color: blue;
+    font-size: 22px;
+    position: relative;
+    left: 0;
+}
+.social button span{
+    justify-self: center;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+}
+.first-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pass-reset p{
+    cursor: pointer;
+}
+.first-info div{
+    display: flex;
+    flex-direction: column;
+}
+
+.pass-reset{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pass-reset h3{
+    text-align: center;
+}
+.pass-reset div{
+    display: flex;
+    flex-direction: column;
+}
+.pass-reset div label{
+    color:  var(--main-dark-color);
+    font-weight: bold;
+}
+.pass-reset div input{
+    height: 40px;
+    margin-bottom: 25px;
+    border: 2px solid var(--main-dark-color);
+    border-radius: 5px;
+    padding: 6px;
+    background-color: white;
+    font-size: 1em;
+}
+.pass-reset button{
+    height: 40px;
+    padding: 10px;
+    background-color: var(--main-light-color);
+    color:var(--main-dark-color);
+    font-weight: 900;
+    font-size: 15px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+}
+.pass-reset button:hover{
+    background-color: #a88b2b;
+}
+@media  (min-width: 800px){
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social button{
+    gap: 10px;
+}
+.social button i{
+  line-height: 15px;
+}}
+
+
+@media (max-width:768px) {
+    .first-info{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .container_sign{
+        height: 100vh;
+    }
+    .connexion{
+        padding-top: 3rem;
+    }
+ 
+}
+

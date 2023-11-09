@@ -1,0 +1,111 @@
+
+.modal-content-catego {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 5s ;
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 20px 28px;
+    border-radius: 8px;
+    width: 400px;
+    height: fit-content;
+    overflow: auto;
+}
+
+ .modal-content-catego{
+    animation-name: example2;
+    animation-duration: 0.2s;
+}
+@keyframes example2 {
+    0%   {  opacity:0.2}
+    100%  { opacity: 1;}}
+    .modal-content-catego form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+.modal-content-catego form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.category-tit div{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.modal-content-catego form div div button{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid var(--main-light-color);
+    border-radius: 10px;
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+}
+.modal-content-catego form div div button:hover{
+    color: white;
+    background-color: var(--main-light-color);
+}
+.category-tit label{
+    font-size: 14px;  
+    font-weight: bold;
+
+}
+.category-tit input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 32px;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}
+.category-tit input:focus{
+    border: 1px solid var(--main-light-color);
+}
+.childs{
+    padding-left: 20px;
+}
+.childs > div{
+    display: flex;
+    flex-direction: column;
+}
+.childs div div{
+    display: flex;
+gap: 115px;
+ 
+}
+.childs label{
+    font-size: 13px;  
+    font-weight: bold;
+}
+.childs input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+    padding: 8px;
+}
+.childs span{
+    font-size: 1.5em;
+    color: var(--main-dark-color);
+    cursor: pointer;
+}
+.childs span:hover{
+    color: var(--main-light-color);
+}
+.add-catego{
+    width: 30%;
+    padding: 10px;
+    align-self: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: var(--main-light-color);
+    font-weight: bold;
+    color: var(--main-dark-color);
+}
+.add-catego:hover{
+    color: white;
+}

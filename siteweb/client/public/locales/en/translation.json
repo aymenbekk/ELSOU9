@@ -1,0 +1,183 @@
+{
+    "signin": "Signin",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "shop": "Shop",
+    "slogan": "Au saveur du bled",
+    "landing_services": "Some Services",
+    "landing_livraison_title": "Fast Shipping",
+    "landing_livraison_body": "we guarantee product arrivals as fast as possible",
+    "landing_payment_title": "Payment Security",
+    "landing_payment_body": "we implement new technologies to secure your informations and bank details",
+    "landing_bagages_title": "Service de Bagages",
+    "landing_bagages_body": "we also offer a luggage transport service (Algeria-Paris-Algeria) with good prices",
+    "landing_about_us": "About us",
+    "landing_about_us_body": "We are ELSOU9-Flavor of Bled, ELSOU9 is the site that offers you the best and new products (traditional of Bled, Kitchen, Clothing ...) with fast delivery for 9 countries (France, Belgium, Luxembourg, Netherlands , Germany, Spain, Portugal, Italy, Austria). ELSOU9 also offers a luggage transport service (Algeria to Paris / Paris to Algeria) with very good prices, for more information do not hesitate to contact us",
+    "landing_contact_us": "Contact-us",
+    "landing_telephone": "Phone",
+    "landing_email": "Email",
+    "landing_question": "Ask a Question",
+    "landing_name": "First Name",
+    "landing_prenom": "Last Name",
+    "landing_subject": "Subject",
+    "landing_message": "Your message",
+    "landing_send": "Send",
+    "landing_message_sent": "Message sent",
+    "your_name": "Your Name",
+
+    "popup_signin": "LOGIN",
+    "popup_signup": "REGISTER",
+    "forget_password_title": "RESET YOUR PASSWORD",
+    "forget_password_body": "Please enter your email address below. We will send you the instructions to create a new password.",
+    "popup_email": "E-mail",
+    "forget_password_title_2": "RESET PASSWORD",
+    "back_to_login": "Back to Login",
+    "password": "Password",
+    "authentication": "Authentification",
+    "forget_password_?": "Forget Password ?",
+    "connect_with": "OR CONNECT WITH",
+    "confirm_password": "Confirm Password",
+    "registration": "REGISTER",
+
+
+    "top": "Our top",
+    "products": "products",
+    "service": "luggage",
+    "bagages": "service",
+    "new_arrivals": "NEW ARRIVALS",
+
+    "filter": "Filter",
+    "filter_by": "FILTER BY",
+
+    "categories": "CATEGORIES",
+
+    "view": "View",
+
+    "contact_informations": "Contact Informations",
+    "contact_text": "For all your questions or requests you can join us",
+    "call_us": "Call-us",
+    "call_text": "you can call us anytime and we will be there to help you",
+    "send_us_mail": "Send us an Email",
+    "send_us_mail_text": "We will provide you with the information you need, just send us an e-mail",
+    "send_message": "Send a message",
+
+    "login_register": "LOGIN / REGISTER",
+    "cart": "Cart",
+    "home": "Home",
+    "Shop": "Shop",
+    "search_product": "Search a product ...",
+    "logout": "Sign out",
+    "my_account": "My Account",
+
+    "your_cart": "Your Cart",
+    "no_product_cart": "No Products in the cart",
+    "subtotal": "Sub Total",
+    "checkout": "Checkout",
+
+    "orders": "Orders",
+    "changed_with_success": "successfully changed",
+    "save_modifications": "Save Changes",
+
+    "old_password": "Old Password",
+    "new_password": "New Password",
+    "confirm_new_paswword": "Confirm Password",
+
+    "old_password_obligation": "old password* field required",
+    "new_password_obligation": "new password* field required",
+    "confirm_password_obligation": "confirmation field is required",
+    "identique": "passwords are not the same",
+
+    "status": "Status",
+    "no_orders": "Np Order",
+
+    "loading": "Loading...",
+    "product_informations": "Informations about the product",
+    "shipping": "Shipping",
+
+    "pages": "PAGES",
+    "services": "SERVICES",
+    "transport_bagage": "Baggage transport",
+    "clothes_sale": "Clothes Sale",
+    "bled_sale": "Bled Products",
+    "sale": "Selling Different Products",
+    "categories_footer": "CATEGORIES",
+    "follow_us": "FOLLOW-US",
+    "copyright": "All rights are reserved",
+    "made_by": "Website made by",
+
+    "product": "PRODUCT",
+    "price": "PRICE",
+    "quantity": "QUANTITY",
+    "subTotal_capital": "SUB TOTAL",
+    "order_validation": "Validate the order",
+
+    "billing_details": "BILLING DETAILS",
+    "address": "Address",
+    "country": "Country",
+    "region": "Region",
+    "zip_code": "Zip-Code",
+    "your_order": "YOUR ORDER",
+    "sub-total_capital": "SUB-TOTAL",
+    "sub-total": "sub-total",
+    "shipping_order": "Shipping",
+    "average": "Average",
+    "total": "Total",
+
+    "paypal_text": "Secure online payment. Credit card required. A Paypal account is not required",
+    "credit_card": "Credit Card",
+    "card_text": "secure money transfer using your visa, maestro, discovery, american express bank account",
+
+    "card_number": "Credit card Number",
+    "card_name": "Name on credit card",
+    "address_line": "Adress Line",
+    "payment_validation": "Validate the Payment",
+    "payment_error": "Error Message",
+    
+    "commande_detail": "Order Details",
+    "payment": "Payment",
+    "order_completed": "Order Done",
+
+    "register": "Create Account",
+
+    "baggage_transport": "Baggage Transport",
+    "algeria_paris": "Algeria-Paris-Algeria",
+    "baggage_text": "Our delivery service offers you the transportation of luggage or parcels with the best prices on the market and the guarantee and total insurance of your luggage.",
+    "check_prices": "Check prices",
+    "france_to_algeria": "France (Paris) to Algeria",
+    "algeria_to_france": "Algeria to France (Paris)",
+    "kilo": "per kilo",
+    "more_informations": "For more informations",
+    "payment_1" :"Payment received with success",
+    "payment_2" :"Cart ordered"
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+}

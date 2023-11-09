@@ -1,0 +1,47 @@
+.step4-container{
+ display: flex;
+ flex-direction: column;
+
+text-align: center;
+padding: 30px;
+height: 80vh;
+gap: 15px;
+overflow-x: hidden;
+}
+
+.span-payment{
+
+    font-size: 1.3em;
+    font-weight: 500;
+   
+    display: flex;
+    flex-direction: column;
+}
+.sous-step4{
+  
+   height: 60%;justify-content: space-evenly;
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+align-items: center;
+      align-self: center;
+  justify-content: space-between;
+    background-color: white;
+    padding: 35px;
+    border-radius: 8px;
+    --tw-shadow: 0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)),var(--tw-shadow);
+}
+.sous-step4 button{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: var(--main-light-color);
+    font-weight: 500;
+    border: 1px solid transparent;
+    font-size: 1.2em;
+}
+.sous-step4 button:hover{
+    background-color: #bd9a2a;
+}

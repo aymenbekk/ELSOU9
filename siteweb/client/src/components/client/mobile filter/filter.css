@@ -1,0 +1,25 @@
+.filtermobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1300;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column ;
+    transform: translateX(-100%);
+    transition: all 0.2s;
+    overflow: auto;
+  }
+  .filtermobile--open{
+    transform: translateX(0%);
+}
+.filtermobile > span{
+    padding: 15px 15px 0px 0px;
+    color: var(--main-dark-color);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+}
